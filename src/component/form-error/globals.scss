@@ -1,0 +1,15 @@
+.form-error {
+    background: #FF00004B;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 10px;
+
+    >div {
+        font-size: 14px;
+        color: #FF0000;
+    }
+}

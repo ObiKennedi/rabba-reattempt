@@ -1,0 +1,14 @@
+body {
+    @media (min-width:901px) {
+        display: flex;
+        gap: 30px;
+    }
+
+    @media (min-width:901px) {
+        >main {
+            margin-left: 27%;
+            width: 50%;
+            padding: 10px 0;
+        }
+    }
+}
