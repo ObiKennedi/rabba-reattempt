@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import "./globals.scss"
+import LogoutButton from "../log-out";
 
 const SideBar = () => {
     const pathname = usePathname();
@@ -78,7 +79,7 @@ const SideBar = () => {
                 </li>
             </ul>
 
-            <button>Log out</button>
+            <LogoutButton/>
         </nav>
     );
 };
